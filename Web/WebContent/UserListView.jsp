@@ -20,7 +20,7 @@
 	%>
 
 	<%@ include file="Header.jsp"%>
-	<form action="UserListCtl" method="post">
+	<form action="UserListCtl.do" method="post">
 		<div align="center">
 			<h1>User List</h1>
 		</div>

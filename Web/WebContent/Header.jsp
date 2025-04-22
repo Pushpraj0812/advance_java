@@ -19,7 +19,7 @@
 		Hi,
 		<%=user.getFirstName()%>
 	</h3>
-	<a href="UserListCtl"><b>User List</b></a>
+	<a href="UserListCtl.do"><b>User List</b></a>
 	<a href="LoginCtl?operation=logout"><b>Logout</b></a>
 	<%
 		} else {

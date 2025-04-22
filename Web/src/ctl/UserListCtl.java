@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import bean.UserBean;
 import model.UserModel;
 
-@WebServlet("/UserListCtl")
+@WebServlet("/UserListCtl.do")
 public class UserListCtl extends HttpServlet {
 
 	@Override

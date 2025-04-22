@@ -25,7 +25,7 @@
 			%>
 			<table>
 				<tr>
-					<th>LoginId</th>
+					<th>Login-Id</th>
 					<td><input type="text" name="loginId"></td>
 				</tr>
 				<tr>
