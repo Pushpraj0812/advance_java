@@ -1,0 +1,39 @@
+>-for first time in git
+>-git clone repo_link
+
+>-create the repo. in the github.com and when u create the repo. always remember to create the readme file copy the code
+
+>-then make a git folder in your desktop and in that folder open cmd
+
+>-then run cmd "git init" to connect the local repo to the globe repo
+
+>-then run cmd "git clone "paste the repo code here"" that will clone the global repo in your machine
+
+>-then close that cmd
+
+>-then open clone repo and paste your project their
+
+>-then find "Readme" file and open cmd in that place and run cmd to push the code
+
+>-but first time it needs to verify your identity it will show the command to verify your identity copy that command and make changes in that command like your email and username and run that command and 
+
+verify your identity and use git normally it will only verify your identity when you login first time in git desktop
+ 
+
+>-For Normal use
+
+git add .                 :- to add the data in repo.
+git commit -m "message"   :- to commit the data in the repo.
+git push                  :- to push the data in the repo.
+
+---------------------------------------
+>-For enterprise use
+
+git pull                 :- to pull code from repo.
+git branch Pushpraj        :- to create the branch in repo.
+git checkout Pushpraj      :- to shift to the branch
+git add .                :- to add data
+git commit -am "Pushpraj"  :- to commit the data in git branch.
+git push origin Pushpraj   :- to push the data in the branch.
+git pull origin main     :- to pull the data from the main branch 
+git checkout -b Pushpraj   :- to create the branch and shift the branch in one cmd

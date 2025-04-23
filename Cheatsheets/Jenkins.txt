@@ -1,0 +1,9 @@
+# Jenkins
+
+=> new item
+=> give name
+=> select pipeline and click ok
+=> write pipeline code in script 
+=> apply and save
+=> open docker
+..................................................................................................................................................................................

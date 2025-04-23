@@ -1,0 +1,56 @@
+#nginx steps =>
+
+step 1-> open the nginx folder and in the search bar type cmd
+
+step 2 -> type command - start nginx ( to run nginx on your local machine)
+
+step 3 -> open browser search localhost:4200
+
+step 4 -> { to run html file }
+
+open nginx -> conf folder -> nginx.conf with notepad in the location section after inder.html paste the name of your file with extension
+
+{
+  location / {
+              root html;
+              index index.html index.htm Program.html;
+    }
+}
+
+step 5 -> open browser search localhost:4200/name of your file with extension
+
+step 6 -> to close nginx = nginx -s stop
+
+.............................................................................
+
+#tomcat steps
+
+step 1 -> open the tomcat folder -> open bin -> find startup.bat and double click on it ( the server will start )
+
+step 2 -> open browser search localhost:8080 you will see the server screen
+
+step 3 -> { to run html file }
+
+place the html file in = apache-tomcat-9.0.55 -> webapps -> ROOT
+
+step 4 -> open browser search localhost:4200/name of your file with extension
+
+step 5 -> to close tomcat go to server panel and press ctrl + c
+
+.............................................................................
+
+#wildfly steps
+
+step 1 -> open wildfly folder -> bin -> find the standalone.bat and double click on it ( the server will start )
+
+step 2 -> open browser search localhost:8080 you will see the server screen
+
+step 3 -> { to run html file }
+
+place the html file in = wildfly-servlet-10.1.0.Final -> welcomecontent
+
+step 4 -> open browser search localhost:4200/name of your file with extension
+
+step 5 -> to close the server = go to the server panel and press ctrl + c -> and then press y and enter
+
+

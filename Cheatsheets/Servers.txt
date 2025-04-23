@@ -1,0 +1,72 @@
+Tomcat Server:-
+
+Bydefault Port No:-8080
+
+>-How to run a Server and shutdown a server manually?
+>-open tomcat folder
+   >- then open bin folder
+      >-find startup.bat file double click on them and your server is runed.
+
+>-to shutdown the server you have to find the shutdown.bat file and doble click on them and your server is shutdown
+    >-and one method is press ctl+c to shutdown the server
+
+>-how to identify the server is running or not?
+
+>- to identify the server is running or not you have to go to chrome and then type "localhost:8080" in search bar of the chrome and press enter and you can see the tomcat page on the display
+means your server is running if not then you server is not running
+
+>-to deploy some html page in tomcat server we go to tomcat folder then go to web apps folder then go to root folder and then paste html file that you want to deploye
+
+>- to change the port no. of the server first we go to tomcat folder and then go to conf folder and then find the "server.xml" and open that file in notepad and find the "connectorPort:8080 Http"
+and then change the port no. to 8080 to what you want 
+
+.............................................................................
+
+Wildfly Server:-
+
+Bydefault Port No:-8080
+
+>-How to run a Server and shutdown a server manually?
+>-open Wildfly folder
+   >- then open bin folder
+      >-find standalone.bat file double click on them and your server is runed.
+
+    >- one method is press ctl+c to shutdown the server
+
+>-how to identify the server is running or not?
+
+>- to identify the server is running or not you have to go to chrome and then type "localhost:8080" in search bar of the chrome and press enter and you can see the wildfly page on the display
+means your server is running if not then you server is not running
+
+>-to deploy some html page in wildfly server we go to wildfly folder then go to welcome content folder and then paste html file that you want to deploye
+
+>- to change the port no. of the server first we go to wildfly folder and then go to standalone folder and then go to configuration folder and then find the "standalone.xml" and open that file in notepad and find the " <socket-binding name="http" port="${jboss.http.port:8080}"/>"
+and then change the port no to 8080 to what you want 
+
+.............................................................................
+
+Nginx Server:-
+
+Bydefault Port No:-80
+
+Note:-Nginx is especially for Angular
+       >-and angular is frontend
+
+>-How to run a Server and shutdown a server manually?
+>-we have to manually start nginx
+    >-use cmd "start nginx"
+    >-to stop server run cmd "nginx -s stop"
+
+>-how to identify the server is running or not?
+
+>- to identify the server is running or not you have to go to chrome and then type "localhost" in search bar of the chrome and press enter and you can see the Nginx page on the display
+means your server is running if not then you server is not running
+
+nginx - html - paste html file - conf - nginx.conf-open with notepad -server me port no change 4200 and location me file name likhna hai
+
+>-to deploy some html page in nginx server we go to nginx folder then go to  html folder and then paste html file that you want deploye after that we go to conf folder
+and find the nginx.conf file open that file in notepad and find the "server"tag in that file. in server here you can change the port no. like "4200" and in "location" tag
+you have to write the HTML file name which you want to deploye in the server.
+
+.............................................................................
+
