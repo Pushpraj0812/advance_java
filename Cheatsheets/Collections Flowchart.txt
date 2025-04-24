@@ -1,0 +1,36 @@
+Collection (Interface)
+|
+|-- List ((Interface)
+| |-- ArrayList
+| |-- LinkedList
+| |-- Vector
+|
+|-- Stack
+|
+|-- Queue ((Interface)
+| |-- PriorityQueue
+| |-- Deque ((Interface)
+|
+|-- ArrayDeque
+|
+|-- LinkedList
+|
+|-- Set ((Interface)
+|-- HashSet
+| |-- LinkedHashSet
+|
+|-- SortedSet ((Interface)
+|-- TreeSet
+
+Map(Interface)(Separate from Collection)
+|
+|-- HashMap
+| |-- LinkedHashMap
+|
+|-- SortedMap ((Interface)
+|-- TreeMap
+|
+|-- Hashtable
+|-- Properties
+
+
